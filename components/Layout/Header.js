@@ -25,88 +25,88 @@ const Header = () => {
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoVPN className="h-8 w-auto" />
           </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
+          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-right">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="home"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("home");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "about"
-                  ? " text-orange-500 animation-active "
+                (activeLink === "home"
+                  ? " text-blue-500 animation-active "
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              About
+              Home
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="feature"
+              to="chooseUs"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("feature");
+                setActiveLink("chooseUs");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "feature"
+                (activeLink === "chooseUs"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Feature
+              Why Choose Us?
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="pricing"
+              to="services"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("pricing");
+                setActiveLink("services");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "pricing"
+                (activeLink === "services"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Pricing
+              Services
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="contactUs"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("contactUs");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
+                (activeLink === "contactUs"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Testimonial
+              Contact Us
             </LinkScroll>
           </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+          {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Sign In
               </a>
             </Link>
             <ButtonOutline>Sign Up</ButtonOutline>
-          </div>
+          </div> */}
         </nav>
       </header>
       {/* Mobile Navigation */}
@@ -116,16 +116,16 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="home"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("home");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "about"
+                (activeLink === "home"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent")
               }
