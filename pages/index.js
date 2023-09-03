@@ -6,6 +6,7 @@ import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import SharedValues from "../components/SharedValue";
 import Team from "../components/Team";
+import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Service />
         <SharedValues />
         <Team />
+        <Testimonial />
       </Layout>
     </>
   );
