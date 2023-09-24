@@ -54,8 +54,7 @@ const Team = () => {
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto py-8 my-2 text-center"
             >
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium.
+              Your Partner in Strategic HR Solutions
             </motion.p>
           </ScrollAnimationWrapper>
 
