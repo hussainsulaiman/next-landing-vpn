@@ -14,7 +14,7 @@ const Team = () => {
 
   const TeamMembers = [
     {
-      teamMemberImage: "/assets/TeamMember1.png",
+      teamMemberImage: "/assets/TeamMember1.jpeg",
       teamMemberName: "Ahmed Ibrahim",
       teamMemberDesignation: "Managing Partner People First LLP",
       teamMemberLinkedin:

@@ -72,14 +72,14 @@ const Hero = ({
               custom={{ duration: 2 + index }}
               variants={scrollAnimation}
             >
-              <div className="flex mx-auto w-40 sm:w-auto">
+              <div className="flex mx-auto bg-orange-500 w-40 sm:w-auto">
                 {/* <div className="flex items-center justify-center bg-gray-100 w-12 h-12 mr-6 rounded-full">
                   <img
                     src={listUsers.icon}
                     className="h-16 w-16 rounded-full"
                   />
                 </div> */}
-                <div className="flex flex-col">
+                <div className="flex bg flex-col">
                   <p className="text-xl sm:text-base align-middle justify-left lg:text-xl font-medium text-gray-600 leading-relaxed">
                     {listUsers.name}
                   </p>

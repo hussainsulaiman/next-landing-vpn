@@ -24,12 +24,12 @@ const Footer = () => {
             <div className="flex">
               <p className="mr-1 text-gray-900 dark:text-gray-100">Email:</p>
               <a
-                href="mailto:info@peoplefirst.mv"
+                href="mailto:ahmed@peoplefirst.mv"
                 aria-label="Our email"
                 title="Our email"
                 className="text-red-500 transition-colors duration-300 hover:text-red-800"
               >
-                info@peoplefirst.mv
+                ahmed@peoplefirst.mv
               </a>
             </div>
           </div>
