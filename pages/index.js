@@ -7,6 +7,7 @@ import SeoHead from "../components/SeoHead";
 import SharedValues from "../components/SharedValue";
 import Team from "../components/Team";
 import Testimonial from "../components/Testimonial";
+import WhoWeAre from "../components/WhoWeAre";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SeoHead title="People First HR Consultancy" />
       <Layout>
         <Hero />
+        <WhoWeAre />
         <WhyChooseUs />
         <Service />
         <SharedValues />

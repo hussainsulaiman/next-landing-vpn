@@ -13,7 +13,7 @@ const Hero = ({
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Strategic Workforce Planning",
+      name: "Culture Transformation",
 
       icon: "/assets/Icon/gridicons_location.svg",
     },
@@ -27,7 +27,10 @@ const Hero = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="home">
+    <div
+      className="max-w-screen-xl bg-gradient-to-b from-gray-100 to-white-500 mt-24 px-8 xl:px-16 mx-auto"
+      id="home"
+    >
       <ScrollAnimationWrapper>
         <motion.div
           className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
@@ -35,8 +38,7 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-2xl xl:text-5xl font-medium text-black-600 leading-normal">
-              Empowering Businesses Through Strategic{" "}
-              <strong>HR Solutions</strong>.
+              Empowering Businesses Through Strategic HR Solutions{" "}
             </h1>
             <p className="text-black-500 mt-4 mb-6">
               We are passionate about helping businesses achieve success through
