@@ -46,9 +46,9 @@ const Hero = ({
             </p>
             {/*  <ButtonPrimary>Get in Touch</ButtonPrimary> */}
           </div>
-          <div className="  hidden lg:block">
+          <div className="  relative lg:block">
             <motion.div
-              className=" w-full hidden lg:block"
+              className=" w-full  lg:block"
               variants={scrollAnimation}
             >
               <Image
@@ -64,7 +64,7 @@ const Hero = ({
         </motion.div>
       </ScrollAnimationWrapper>
       <div className="relative  w-full flex">
-        <ScrollAnimationWrapper className="rounded-lg  align-self: center w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-4 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
+        <ScrollAnimationWrapper className="rounded-lg bg-orange-500  align-self: center w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-4 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100  z-10">
           {listUser.map((listUsers, index) => (
             <motion.div
               className="flex items-left align-middle t sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0"
@@ -80,7 +80,7 @@ const Hero = ({
                   />
                 </div> */}
                 <div className="flex bg flex-col">
-                  <p className="text-xl sm:text-base align-middle justify-left lg:text-xl font-medium text-gray-600 leading-relaxed">
+                  <p className="text-xl sm:text-base align-middle justify-left lg:text-xl font-medium text-gray-100 leading-relaxed">
                     {listUsers.name}
                   </p>
                 </div>

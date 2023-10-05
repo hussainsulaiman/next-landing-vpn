@@ -46,15 +46,15 @@ const WhyChooseUs = () => {
             className="flex flex-col  justify-center ml-auto w-full lg:w-9/12"
             variants={scrollAnimation}
           >
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed">
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-gray-100 leading-relaxed">
               Why Choose Us?
             </h3>
-            <p className="my-2 text-black-500">
+            <p className="my-2 text-gray-100 ">
               Our comprehensive range of HR services is designed to help
               businesses like yours thrive by maximizing the potential of your
               most valuable asset, your people. Here’s what we offer:
             </p>
-            <ul className="text-black-500 self-start list-inside ml-8">
+            <ul className="text-gray-100  self-start list-inside ml-8">
               {features.map((feature, index) => (
                 <motion.li
                   className="relative circle-check custom-list"

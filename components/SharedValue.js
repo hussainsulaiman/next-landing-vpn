@@ -74,7 +74,7 @@ const SharedValues = () => {
                   </ScrollAnimationWrapper>
                   <ScrollAnimationWrapper>
                     <motion.div
-                      className="flex flex-col items-end justify-left ml-auto w-full lg:w-9/12"
+                      className="flex flex-col items-end  ml-auto w-full lg:w-9/12"
                       variants={scrollAnimation}
                     >
                       <ul className="text-black-500 self-start list-inside ml-8">
