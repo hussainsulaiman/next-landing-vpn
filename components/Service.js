@@ -7,13 +7,14 @@ import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import LogoVPN from "../public/assets/service-1.svg";
 
 const Services = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   const ServiceOfferings = [
     {
-      serviceImage: "/assets/service-1.jpg",
+      serviceImage: "/assets/service-1.svg",
       serviceHeading: "Job Architecture and Job Levelling",
       serviceDes:
         "Creates a structured and equitable framework for managing job roles, career development, and compensation within an organization",
@@ -30,18 +31,7 @@ const Services = () => {
       serviceDes:
         "Creates a structured and equitable framework for managing job roles, career development, and compensation within an organization",
     },
-    {
-      serviceImage: "/assets/service-1.jpg",
-      serviceHeading: "Employee Resource Planning (ERP) HR Consulting",
-      serviceDes:
-        "Creates a structured and equitable framework for managing job roles, career development, and compensation within an organization",
-    },
-    {
-      serviceImage: "/assets/service-1.jpg",
-      serviceHeading: "State-of-the-art Employee Engagement & Experience",
-      serviceDes:
-        "Creates a structured and equitable framework for managing job roles, career development, and compensation within an organization",
-    },
+
     {
       serviceImage: "/assets/service-1.jpg",
       serviceHeading: "Agile Culture Transformation",
@@ -74,18 +64,12 @@ const Services = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Services we're Offering
+              Our Services
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto py-8 my-2 text-center"
-            >
-              Our job architecture and systematic job levelling (job evaluation)
-              approach based on international best practices, enable employers
-              to consistently and fairly apply Total Rewards programs and ensure
-              organization effectiveness and help employees navigate their
-              careers
-            </motion.p>
+            ></motion.p>
           </ScrollAnimationWrapper>
 
           <div className="grid grid-flow-row gap-8 text-neutral-600 text-left sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -101,17 +85,13 @@ const Services = () => {
                     },
                   }}
                 >
-                  <a href="#">
-                    <img
-                      className="rounded-t-lg"
-                      src={ServiceOffering.serviceImage}
-                      alt=""
-                    />
+                  <a className="py-10 " href="#">
+                    <LogoVPN className="h-10  w-auto" />
                   </a>
 
                   <div class="p-5">
                     <a href="#">
-                      <p className="text-lg h-24 text-black-600 font-medium capitalize my-2 sm:my-7">
+                      <p className="text-lg h-24  text-black-600 font-medium capitalize my-2 sm:my-7">
                         {ServiceOffering.serviceHeading}
                       </p>
                     </a>
