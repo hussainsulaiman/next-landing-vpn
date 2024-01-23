@@ -8,20 +8,17 @@ import SharedValues from "../components/SharedValue";
 import Team from "../components/Team";
 import Testimonial from "../components/Testimonial";
 import WhoWeAre from "../components/WhoWeAre";
+import Down from "../components/Down";
+
 
 export default function Home() {
   return (
     <>
       <SeoHead title="People First HR Consultancy" />
-      <Layout>
-        <Hero />
-        <WhoWeAre />
-        <WhyChooseUs />
-        <Service />
-        <SharedValues />
-        <Team />
-        <Testimonial />
-      </Layout>
+      
+        <Down />
+        
+      
     </>
   );
 }
