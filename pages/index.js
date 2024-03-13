@@ -16,7 +16,14 @@ export default function Home() {
     <>
       <SeoHead title="People First HR Consultancy" />
       
-        <Down />
+      <Layout>
+        <Hero />
+        <WhyChooseUs />
+        <Service />
+        <SharedValues />
+        <Team />
+        <Testimonial />
+      </Layout>
         
       
     </>
