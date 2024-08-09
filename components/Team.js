@@ -17,7 +17,7 @@ import {
 } from "@material-tailwind/react";
 import { CursorArrowRaysIcon } from "@heroicons/react/24/outline";
 
-function TeamCard({ img, name, title }) {
+function TeamCard({ img, name, title, url }) {
   return (
     <Card
       color="transparent"
@@ -33,6 +33,7 @@ function TeamCard({ img, name, title }) {
           src={img}
           alt={name}
           className="h-full w-full object-cover object-center"
+          href={url}
         />
       </CardHeader>
       <CardBody className="p-0">
@@ -66,6 +67,7 @@ const members = [
     img: `/assets/TeamMember1.jpeg`,
     name: "Ahmed Ibrahim",
     title: "Managing Partner People First LLP",
+    url: "https://www.linkedin.com/in/ahmed-ibrahim-mcipd/"
   },
   {
     img: `/assets/TeamMember2.png`,
@@ -73,11 +75,7 @@ const members = [
     title: "Partner- People First LLP",
     url: "https://www.linkedin.com/in/aishsama/"
   },
-  {
-    img: `/assets/TeamMember3.png`,
-    name: "Yoosuf Hasnain",
-    title: "Partner- People First LLP",
-  },
+  
  
 ];
 

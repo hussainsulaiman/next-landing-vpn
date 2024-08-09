@@ -6,7 +6,6 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const Hero = ({
-
   
   listUser = [
     {
